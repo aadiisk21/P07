@@ -92,4 +92,22 @@ select {
   height: 26.5rem;
   border-radius: 7px;
   background-color: hsl(244, 38%, 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.left-side-contend,
+.right-side-contend {
+  border: 1px solid gray;
+  height: 100%;
+}
+
+.left-side-contend {
+  width: 51.3%;
+}
+
+.right-side-contend {
+  width: 48.7%;
 }
