@@ -115,7 +115,7 @@ select {
 }
 
 h1.heading {
-  margin-top: -2rem;
+  margin-top: 2rem;
   line-height: 2.5rem;
   font-weight: 700;
   font-size: 2.1rem;
@@ -131,7 +131,7 @@ p.insights-para {
   font-size: 0.9rem;
   padding-right: 3rem;
   line-height: 1.5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
 }
 
 .heading span {
@@ -143,9 +143,10 @@ p.insights-para {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  left: 12rem;
-  position: absolute;
-  top: 28.7rem;
+  /* left: 12rem;
+  position: inherit;
+  top: 28.7rem; */
+  margin-right: 4.5rem;
 }
 
 .stats {
@@ -173,7 +174,8 @@ p.insights-para {
 
 .right-side-contend {
   width: 48.7%;
-  background-color: hsla(277, 80%, 38%, 0.548);
+  background-color: hsl(284, 98.3%, 23.1%);
+  /* background-color: hsl(277, 64%, 61%); */
 }
 
 .right-side-contend img {
@@ -183,5 +185,5 @@ p.insights-para {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: .5;
+  opacity: 0.4;
 }
