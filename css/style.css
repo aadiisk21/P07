@@ -187,3 +187,26 @@ p.insights-para {
   background-repeat: no-repeat;
   opacity: 0.4;
 }
+
+/* ------------------------------------------------------- */
+/* .right-side-contend {
+  width: 48.7%;
+  background-color: hsl(284, 98.3%, 23.1%);
+  background-color: hsl(277, 64%, 61%);
+  background-image: url(../images/image-header-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+.right-side-contend img {
+  max-width: 100%;
+  height: 100%;
+  display: block;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+} */
+/* ------------------------------------------------------- */
