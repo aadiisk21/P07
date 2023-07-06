@@ -178,12 +178,13 @@ p.insights-para {
   /* background-color: hsl(277, 64%, 61%); */
 }
 
-.right-side-contend img {
-  max-width: 100%;
+.right-side-img {
+  width: 100%;
   height: 100%;
+  background-image: url(../images/image-header-desktop.jpg);
   display: block;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.4;
 }
