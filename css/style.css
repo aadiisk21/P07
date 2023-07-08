@@ -100,14 +100,206 @@ select {
 
 .left-side-contend,
 .right-side-contend {
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   height: 100%;
 }
 
 .left-side-contend {
   width: 51.3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: start;
+  padding: 4rem;
+}
+
+h1.heading {
+  margin-top: 2rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  font-size: 2.1rem;
+  font-family: "Inter", sans-serif;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+p.insights-para {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  padding-right: 3rem;
+  line-height: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.heading span {
+  color: hsl(277, 64%, 61%);
+}
+
+.insights-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /* left: 12rem;
+  position: inherit;
+  top: 28.7rem; */
+  margin-right: 4.5rem;
+}
+
+.stats {
+  margin: 1.5rem 1.96rem;
+  text-transform: uppercase;
+}
+
+.insights-stats h1 {
+  font-family: "Inter", sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.43rem;
+  margin-bottom: 0.1rem;
+}
+
+.stats-1 h1 {
+  text-transform: lowercase;
+}
+
+.insights-stats p {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 0.7rem;
+  letter-spacing: 0.12ch;
 }
 
 .right-side-contend {
   width: 48.7%;
+  background-color: hsl(284, 98.3%, 23.1%);
+  /* background-color: hsl(277, 64%, 61%); */
 }
+
+.right-side-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/image-header-desktop.jpg);
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+
+  .container {
+    width: 100%;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column-reverse;
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  .left-side-contend {
+    width: 100%;
+    /* height: 60%; */
+    padding: 0;
+  }
+
+  h1.heading {
+    width: 65vw;
+    text-align: center;
+    margin: 1rem;
+  }
+  }
+
+  p.insights-para {
+    width: 30vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .insights-stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin: 0;
+    text-align: center;
+  }
+
+  .stats {
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .right-side-contend {
+    width: 100%;
+    /* height: 40%; */
+    background-color: hsl(284, 98.3%, 23.1%);
+  }
+
+  .stat h1 {
+    margin: 0;
+  }
+
+  .right-side-img {
+    width: 100%;
+    display: block;
+    /* height: 100vh; */
+    background-image: url(../images/image-header-mobile.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+  }
+  /* 
+  p.insights-para {
+    width: 90%;
+  } */
+
+  .attribution {
+    display: none;
+    position: inherit;
+  }
+}
+
+/* ------------------------------------------------------- */
+/* .right-side-contend {
+  width: 48.7%;
+  background-color: hsl(284, 98.3%, 23.1%);
+  background-color: hsl(277, 64%, 61%);
+  background-image: url(../images/image-header-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+.right-side-contend img {
+  max-width: 100%;
+  height: 100%;
+  display: block;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+} */
+/* ------------------------------------------------------- */
