@@ -209,6 +209,7 @@ p.insights-para {
     flex-flow: column-reverse;
     margin: 2rem 0;
     text-align: center;
+    overflow: scroll;
   }
 
   .left-side-contend {
