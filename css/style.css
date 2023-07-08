@@ -95,7 +95,7 @@ select {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  /* overflow: auto; */
 }
 
 .left-side-contend,
@@ -192,6 +192,12 @@ p.insights-para {
 /* mobile width media query */
 
 @media screen and (max-width: 450px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    overflow: visible;
+  }
+
   .container {
     width: 100%;
     padding: 0;
