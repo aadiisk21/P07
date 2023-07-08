@@ -189,14 +189,10 @@ p.insights-para {
   opacity: 0.4;
 }
 
-@media screen and (max-width: 450px) {
-  body {
-    width: 100%;
-    height: 100%;
-  }
+/* mobile width media query */
 
+@media screen and (max-width: 450px) {
   .container {
-    width: 100%;
     width: 100%;
     padding: 0;
     display: flex;
@@ -206,7 +202,7 @@ p.insights-para {
 
   .card {
     width: 90%;
-    height: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,19 +213,15 @@ p.insights-para {
 
   .left-side-contend {
     width: 100%;
-    /* height: 60%; */
-    padding: 0;
+    height: 70%;
   }
 
   h1.heading {
-    width: 65vw;
+    margin: 0;
     text-align: center;
-    margin: 1rem;
-  }
   }
 
   p.insights-para {
-    width: 30vh;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -239,7 +231,6 @@ p.insights-para {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column;
     margin: 0;
     text-align: center;
   }
@@ -252,7 +243,7 @@ p.insights-para {
 
   .right-side-contend {
     width: 100%;
-    /* height: 40%; */
+    height: 40%;
     background-color: hsl(284, 98.3%, 23.1%);
   }
 
@@ -262,7 +253,6 @@ p.insights-para {
 
   .right-side-img {
     width: 100%;
-    display: block;
     /* height: 100vh; */
     background-image: url(../images/image-header-mobile.jpg);
     background-position: center;
